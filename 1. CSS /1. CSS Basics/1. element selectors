@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Element Selector</title>
+
+    <style>
+        /* Select By Tag Name */
+        div{
+            width: 400px;
+            height: 600px;
+            border: 2px solid black;              
+            /* padding is use to create space around content in container. */
+            padding: 50px; 
+            background-color: rgb(135, 133, 241);
+        }
+
+        h1
+        {
+            background-color: rgb(225, 225, 212);
+        }
+
+        /* Select by Id -> # is used for id selector  */
+        #para
+        {
+            color: rgb(25, 71, 150);
+            font-weight: 900;
+            font-style: caption ;
+        }
+
+        .code
+        {
+            background-color: rgb(43, 41, 41);
+            color: rgb(197, 192, 192);
+            /* rounds the corners of an element */
+            border-radius: 30px;
+            padding: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    </style>
+
+  </head>
+  <body>
+    <div>
+
+      <h1>Element Selector</h1>
+
+      <p id="para">
+        Element selector basically select element/tag directly,select elements
+        based on name, id, class
+        <br />
+        <!-- The <b> HTML element is used to draw the reader's attention to the element's contents.  -->
+        <b>example 1 - Select By Name: </b>
+        
+        <pre class="code">p {
+            text-align: center;
+            color: red;
+          }</pre> <br>
+
+        <b>Example  2: ID Selecotor</b>
+
+        <pre class="code">#para1 {
+            text-align: center;
+            color: red;
+          }</pre>
+
+        <b>Example : class Selecotor</b>
+        
+        <pre class="code">.para1 {
+            text-align: center;
+            color: red;
+          }</pre>
+      </p>
+    </div>
+  </body>
+</html>
