@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 1300px;
+            height: 600px;
+            background-color: rgb(247, 209, 182);
+        }
+
+        .box{
+            background-color: rgb(101, 133, 231);
+            height: 150px;
+            width: 150px;
+            transition: 4s ease-in;}
+
+        .box:hover{
+            background-color: red;
+            transform: scale(2) translateX(300px) rotate(180deg) ;
+        }
+       
+
+    </style>
+
+</head>
+<h1>Animations</h1>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box2"></div>
+
+    </div>
+    
+</body>
+</html>
