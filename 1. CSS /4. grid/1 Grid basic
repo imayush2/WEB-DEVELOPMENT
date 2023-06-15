@@ -9,14 +9,14 @@
     <style>
         .container{
             display: grid;
-            background-color: aqua;
+            background-color: slategray;
             grid-template-columns: 200px 100px 200px;
             grid-template-rows: 50px 50px 50px;
         }
 
         .box{
-            background-color: red;
-            border: 1px solid lightgreen;
+            background-color: rgb(242, 111, 111);
+            border: 1px solid rgb(17, 18, 17);
         }
     </style>
 
