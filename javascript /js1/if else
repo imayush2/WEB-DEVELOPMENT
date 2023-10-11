@@ -1,0 +1,23 @@
+//If else 
+//1 single if else 
+
+let number = 10 ;
+
+if(number > 10){
+    console.log("number is greater than 10");
+}
+else {
+    console.log("number is smaller  than 10");
+}
+
+// multiple if else 
+
+if(number > 10){
+    console.log("number is greater than 10");
+}
+else if (number < 10){
+    console.log("number is smaller  than 10");
+}
+else {
+    console.log("number is equal to  10");
+}
