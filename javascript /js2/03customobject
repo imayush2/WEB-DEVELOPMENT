@@ -1,0 +1,23 @@
+function createRectangle(length,breadth) {
+    const rectangle = {
+      length,
+      breadth,
+  
+      draw: function () {
+        console.log("Drawing rectangle");
+      },
+  
+      area: function () {
+        console.log(`Area of Rectangle: ${rectangle.length * rectangle.breadth}`);
+      },
+    };
+    return rectangle;
+  }
+  
+  let rectangle11 = createRectangle(5,6);
+  console.log(rectangle11.length);  //5
+  rectangle11.area();          //30
+  
+  let rectangle12 = createRectangle(15,60);
+  console.log(rectangle12.length);    //15
+  rectangle12.area();       //900
