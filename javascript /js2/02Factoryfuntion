@@ -1,0 +1,20 @@
+function createRectangle(){
+
+    const rectangle = {
+    length: 2,
+    breadth: 4,
+
+    draw : function(){
+        console.log("Drawing rectangle");
+    },
+
+    area : function()
+    {
+        console.log(rectangle.length * rectangle.breadth);
+    }
+  };
+  return rectangle;
+}
+
+let rectangle1 = createRectangle();
+console.log(rectangle1.length);  //2
