@@ -1,0 +1,28 @@
+function Rectangle(length , breadth){
+
+    let rectangle = {
+        length ,
+        breadth,
+
+        draw : function(){
+            console.log("drawing rectangle");
+        },
+    }
+    return rectangle;
+
+}
+let rectangle31 = Rectangle(10,20);
+
+//add propety 
+rectangle31.area = rectangle31.length * rectangle31.breadth;
+
+console.log(rectangle31.length);  //10
+console.log(rectangle31.breadth);  //20
+console.log(rectangle31.area);    //200
+console.log(rectangle31);   //object
+
+
+//delete property 
+
+delete rectangle31.area;
+console.log(rectangle31);
