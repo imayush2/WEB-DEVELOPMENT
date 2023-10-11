@@ -1,0 +1,67 @@
+// 1 arthematic operator 
+// + - * / % ++ --
+
+console.log("arthematic operator");
+let num1 = 10;
+let num2 = 20;
+
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+console.log(num1 % num2);
+
+console.log("Post and Pre Increment and Decrement");
+console.log(num1++ + ++num2); // 10 + 21 = 31
+console.log(++num1 + num2--); // 12 + 21 = 33 
+console.log(num1-- - num2--); // 12 - 20 = -8
+console.log(num1-- - --num2); // 11 - 19 = -7
+console.log(++num1 - --num2); // 11 - 17 = -6  
+console.log(++num1 + --num2); // 12 + 16 = 28
+
+//assignment operator 
+// = += -= *= /=  %=
+
+let ab = 5;
+console.log(ab); //5
+ab+=ab;
+console.log(ab); //10
+ab-=4;
+console.log(ab); //6
+ab*=5;
+console.log(ab); //30
+ab/=2;
+console.log(ab); //15
+ab%=7
+console.log(ab); //1
+
+
+// #4 - Bitwise Operators
+// & | ^ ~ << >> >>> 
+
+console.log("Bitwise Operators");
+let bo = 10;
+
+console.log(bo & 3); //2
+console.log(bo | 3); //11 
+console.log(bo ^ 3); //9
+console.log(~bo); //
+console.log(bo >> 1); //5
+console.log(bo << 1); //20
+// console.log(bo >>> 1); //
+
+// #5 - Logical Operator 
+// && || ! 
+let lo1 = true; 
+let lo2 = false;
+
+console.log(lo1 && lo2); //False
+console.log(lo1 || lo2); //True
+console.log(!lo1) // False
+console.log(!lo2) // True
+
+
+// #6 - Turnary Operator 
+let age = 18;
+age > 18 ? console.log("You can Vote"): console.log("You can not vote");
+
