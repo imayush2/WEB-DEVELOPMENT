@@ -1,0 +1,52 @@
+// datatypes 
+
+//primitive data types 
+
+//1 string 
+let firstName = "Ayush";
+let lastName = "Gupta";
+let fullName = firstName + " " + lastName;
+
+console.log(firstName);   //Ayush
+console.log(lastName);    //Gupta
+console.log(fullName);    //Ayush Gupta
+
+//2 number 
+
+let num = 10.6;
+console.log(num);       //10.6
+
+num = 10;
+console.log(num);      //10
+
+//3 boolean 
+let bool = true;
+bool ? console.log("true") : console.log("false");   //true
+
+//4 undefined 
+let x ;
+console.log(x);    //undefined 
+
+//5 Null 
+let y = null;
+console.log(y);     //null
+
+//non primitive 
+//1 array 
+
+let arr = [1,2,3,4,5];
+console.log(arr);      // (5) [1, 2, 3, 4, 5]
+
+
+arr = ['my','name','is','ayush'];
+console.log(arr);    // (4) ['my', 'name', 'is', 'ayush']
+console.log(arr[0]);  //my
+
+//2 object 
+
+let obj = {
+    "name" : 'ayush',
+    "age" : 19
+};
+
+console.log(obj["name"]);    //ayush 
